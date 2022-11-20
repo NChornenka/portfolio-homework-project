@@ -48,3 +48,17 @@ h1 {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
+
+.gallery{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    height: 280px;
+}
+
+.gallery-row {
+    margin-bottom: 30px;
+}
+
