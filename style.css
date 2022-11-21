@@ -3,12 +3,15 @@ body {
     background-color: #1B1B1B;
 }
 
+.bg-image {
+    background-image: url("../images/bg-hero.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+}
 .hero {
     padding: 160px 20px;
-    background-image: url("../images/bg-hero.png");
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;    
     
 }
 
@@ -56,9 +59,8 @@ h1 {
 
 .gallery img {
     height: 280px;
+    padding: 20px;
 }
 
-.gallery-row {
-    margin-bottom: 30px;
-}
+
 
