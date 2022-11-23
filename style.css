@@ -70,6 +70,78 @@ h1 {
     padding: 20px;
 }
 
+.about-hero {
+    margin: 20px auto;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+
+.about-hero h2 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #F65282;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.about-hero h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.about-photo {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.about-hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.about-hero i {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.camera {
+    background-color: #2D2727;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.camera img {
+    margin-right: 25px;
+}
+
+.bg {
+    background-image: url("..//images/hero-about.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+}
+
+
 
 @media (max-width: 1200px ){
     .hide {
@@ -100,6 +172,7 @@ h1 {
         line-height: 1.5;
     }
 }
+
 
 
 
