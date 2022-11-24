@@ -33,6 +33,14 @@ h1 {
     color: #FFFFFF;
 }
 
+h3 {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #F65282;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
 .hero p {
     font-weight: normal;
     font-size: 18px;
@@ -150,6 +158,22 @@ h1 {
     margin-bottom: 150px;
 }
 
+.contact-header {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contact i {
+    margin: 10px;
+}
 
 
 @media (max-width: 1200px ){
