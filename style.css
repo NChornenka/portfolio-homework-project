@@ -4,10 +4,11 @@ body {
     color: #FFFFFF;
 }
 
-.navbar a {
+.nav-link {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    padding: 10px;
 }
 
 .bg-image {
@@ -56,10 +57,7 @@ h3 {
     
 }
 
-.nl {
-    font-size: 16px;
-    padding: 20px;
-}
+
 .btn-branding {
     font-weight: 700;
     margin-top: 40px;
@@ -91,10 +89,11 @@ h3 {
 
 .about-info {
     max-width: 92%;
-    padding: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 .about-hero {
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 0;
     color: #FFFFFF;
 }
