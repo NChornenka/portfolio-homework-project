@@ -223,8 +223,8 @@ h3 {
 
 }
 
-@media (max-width: 900px){
-    .hide_two {
+@media (max-width: 990px){
+    .hide-two {
         display: none;
     }
 
@@ -244,6 +244,23 @@ h3 {
         font-size: 12px;
         line-height: 1.5;
     }
+
+    .logo {
+        max-height: 15px;
+    }
+    .footer p {
+        font-size: 8px;
+    }
+
+    .icon {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .camera {
+        max-width: 100%;
+    }
+
+    
 }
 
 
