@@ -81,7 +81,7 @@ h3 {
     color: #FFFFFF;
 }
 
-.gallery{
+.gallery {
     margin-top: 60px;
     margin-bottom: 30px;
 }
@@ -195,10 +195,13 @@ h3 {
     align-items: center;
     }
 
-.icons a {
+a {
     text-decoration: none;
     color: #FFFFFF;
+}
 
+a:hover {
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .footer {
