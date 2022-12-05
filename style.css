@@ -226,7 +226,7 @@ a:hover {
 
 }
 
-@media (max-width: 990px){
+@media all and (max-width: 990px){
     .hide-two {
         display: none;
     }
@@ -238,9 +238,14 @@ a:hover {
 
 }
 
-@media (max-width:600px){
+@media all and (max-width: 600px){
+
     h1 {
         font-size: 36px;
+    }
+
+    .about-hero h1 {
+        font-size: 48px;
     }
 
     p {
@@ -255,6 +260,10 @@ a:hover {
         font-size: 8px;
     }
 
+    .par {
+        font-size: 12px;
+    }
+
     .icon {
         margin-left: 10px;
         margin-right: 10px;
@@ -263,6 +272,15 @@ a:hover {
         max-width: 100%;
     }
 
+    .gallery-header {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+
+    .contact-header {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     
 }
 
